@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600" role="img" aria-labelledby="title desc">
+  <title id="title">Pré-visualização de dashboard de análise avançada</title>
+  <desc id="desc">Pré-visualização abstrata de um dashboard Power BI com gráficos de clusterização e blocos de resumo por segmento.</desc>
+  <defs>
+    <linearGradient id="surface" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#cfcfea"/>
+    </linearGradient>
+    <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="24" flood-color="#353a47" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="960" height="600" fill="#353a47"/>
+  <rect x="78" y="70" width="804" height="460" rx="8" fill="url(#surface)" filter="url(#softShadow)"/>
+  <rect x="118" y="112" width="310" height="310" rx="8" fill="#ffffff" opacity="0.9"/>
+  <rect x="468" y="112" width="352" height="134" rx="8" fill="#ffffff" opacity="0.86"/>
+  <rect x="468" y="286" width="352" height="136" rx="8" fill="#ffffff" opacity="0.78"/>
+  <g transform="translate(154 152)">
+    <line x1="0" y1="232" x2="226" y2="232" stroke="#353a47" stroke-opacity="0.18" stroke-width="4"/>
+    <line x1="0" y1="0" x2="0" y2="232" stroke="#353a47" stroke-opacity="0.18" stroke-width="4"/>
+    <circle cx="44" cy="176" r="13" fill="#e26d5a"/>
+    <circle cx="68" cy="150" r="10" fill="#e26d5a" opacity="0.76"/>
+    <circle cx="92" cy="190" r="12" fill="#e26d5a" opacity="0.7"/>
+    <circle cx="152" cy="82" r="13" fill="#8cffda"/>
+    <circle cx="178" cy="106" r="10" fill="#8cffda" opacity="0.76"/>
+    <circle cx="196" cy="68" r="12" fill="#8cffda" opacity="0.68"/>
+    <circle cx="118" cy="128" r="12" fill="#353a47"/>
+    <circle cx="140" cy="150" r="10" fill="#353a47" opacity="0.72"/>
+    <circle cx="94" cy="104" r="11" fill="#353a47" opacity="0.68"/>
+  </g>
+  <g transform="translate(502 146)">
+    <text x="0" y="0" fill="#353a47" font-family="Arial, sans-serif" font-size="22" font-weight="800">Comparação de clusters</text>
+    <rect x="0" y="32" width="276" height="14" rx="7" fill="#cfcfea"/>
+    <rect x="0" y="32" width="214" height="14" rx="7" fill="#e26d5a"/>
+    <rect x="0" y="66" width="276" height="14" rx="7" fill="#cfcfea"/>
+    <rect x="0" y="66" width="162" height="14" rx="7" fill="#8cffda"/>
+  </g>
+  <g transform="translate(502 320)">
+    <text x="0" y="0" fill="#353a47" font-family="Arial, sans-serif" font-size="22" font-weight="800">Segmentos de clientes</text>
+    <rect x="0" y="34" width="74" height="58" rx="8" fill="#353a47"/>
+    <rect x="96" y="34" width="74" height="58" rx="8" fill="#e26d5a"/>
+    <rect x="192" y="34" width="74" height="58" rx="8" fill="#8cffda"/>
+  </g>
+  <rect x="118" y="462" width="702" height="10" rx="5" fill="#e26d5a" opacity="0.78"/>
+  <rect x="118" y="486" width="520" height="10" rx="5" fill="#8cffda" opacity="0.9"/>
+</svg>

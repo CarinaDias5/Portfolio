@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portefólio de Carina Dias com relatórios Power BI e projetos de análise de dados."
+    />
+    <title>Carina Dias | Portefólio Power BI</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <main class="portfolio-canvas">
+      <nav class="scrollspy" aria-label="Secções da página">
+        <a
+          class="scrollspy-link is-active"
+          href="#top"
+          data-scroll-target="top"
+          aria-current="true"
+        >
+          <span class="scrollspy-dot" aria-hidden="true"></span>
+          <span class="scrollspy-label">Início</span>
+        </a>
+        <a class="scrollspy-link" href="#projects" data-scroll-target="projects">
+          <span class="scrollspy-dot" aria-hidden="true"></span>
+          <span class="scrollspy-label">Projetos</span>
+        </a>
+        <a class="scrollspy-link" href="#contact" data-scroll-target="contact">
+          <span class="scrollspy-dot" aria-hidden="true"></span>
+          <span class="scrollspy-label">Contacto</span>
+        </a>
+      </nav>
+
+      <header class="site-header" aria-label="Cabeçalho do site">
+        <a class="brand" href="#top" aria-label="Ir para o início">Carina Dias</a>
+        <p class="section-label">Portefólio Power BI</p>
+      </header>
+
+      <section
+        id="top"
+        class="hero"
+        data-scroll-section="top"
+        aria-labelledby="portfolio-title"
+      >
+        <div class="hero-copy">
+          <p class="eyebrow">Trabalho de dados selecionado</p>
+          <h1 id="portfolio-title">Dados transformados em decisões claras.</h1>
+          <p class="hero-text">
+            Dois relatórios Power BI apresentados como estudos de caso: análise
+            estruturada, narrativa visual limpa e foco no que ajuda uma equipa a decidir.
+          </p>
+        </div>
+
+        <ul class="portfolio-stats" aria-label="Resumo do portefólio">
+          <li>
+            <strong>02</strong>
+            <span>Relatórios interativos</span>
+          </li>
+          <li>
+            <strong>PBIX</strong>
+            <span>Ficheiros transferíveis</span>
+          </li>
+          <li>
+            <strong>BI</strong>
+            <span>Análise e narrativa</span>
+          </li>
+        </ul>
+      </section>
+
+      <section
+        id="projects"
+        class="projects"
+        data-scroll-section="projects"
+        aria-labelledby="projects-title"
+      >
+        <div class="section-heading">
+          <p class="eyebrow">Projetos</p>
+          <h2 id="projects-title">Relatórios Power BI em destaque</h2>
+        </div>
+
+        <div class="project-stack">
+          <article class="case-study">
+            <div class="project-content">
+              <p class="project-number">01</p>
+              <h3>Projeto BI - E-Commerce Brasileiro</h3>
+              <p>
+                Dashboard executivo em Power BI desenvolvido com dados de e-commerce
+                brasileiro, cobrindo tendências de faturação, desempenho de produtos,
+                geografia de clientes, logística, satisfação e desempenho de vendedores.
+              </p>
+
+              <dl class="project-meta" aria-label="Detalhes do projeto">
+                <div>
+                  <dt>Ferramenta</dt>
+                  <dd>Power BI</dd>
+                </div>
+                <div>
+                  <dt>Área</dt>
+                  <dd>E-commerce</dd>
+                </div>
+                <div>
+                  <dt>Foco</dt>
+                  <dd>KPIs e operação</dd>
+                </div>
+                <div>
+                  <dt>Formato</dt>
+                  <dd>Relatório interativo</dd>
+                </div>
+              </dl>
+
+              <ul class="project-tags" aria-label="Temas do projeto">
+                <li>Resumo executivo</li>
+                <li>Logística</li>
+                <li>Satisfação do cliente</li>
+              </ul>
+
+              <div class="project-actions">
+                <a
+                  class="project-link project-link-primary"
+                  href="https://app.powerbi.com/view?r=eyJrIjoiN2ZiNTIxNWQtM2E4My00OTY4LWI5MDgtOTFkZmI2NThjNjA5IiwidCI6IjNkOWY4ZTkzLWFlMzItNDE3My1hMjkwLTgzZTM5NzNjNWE0MSIsImMiOjh9"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Explorar relatório
+                </a>
+                <a
+                  class="project-link project-link-download"
+                  href="./Power%20BI/projeto-bi-final.pbix"
+                  download
+                >
+                  Transferir PBIX
+                </a>
+              </div>
+            </div>
+
+            <div class="report-shell" aria-label="Pré-visualização interativa do relatório">
+              <div class="report-toolbar">
+                <span class="report-status" aria-hidden="true"></span>
+                <span>Relatório Power BI</span>
+              </div>
+              <div class="project-media">
+                <img
+                  class="report-preview"
+                  src="./assets/power-bi/projeto-bi-final.svg"
+                  alt="Pré-visualização em estilo dashboard do projeto Power BI de e-commerce brasileiro"
+                />
+                <iframe
+                  class="powerbi-embed"
+                  title="Relatório Power BI Projeto BI - E-Commerce Brasileiro"
+                  data-report-id="ecommerce"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </article>
+
+          <article class="case-study case-study-reverse">
+            <div class="project-content">
+              <p class="project-number">02</p>
+              <h3>Análise Avançada de Dados</h3>
+              <p>
+                Relatório de análise avançada que compara a clusterização nativa do
+                Power BI com K-Means em Python e segmentação hierárquica para perfilar
+                o comportamento dos clientes por encomendas e valor gasto.
+              </p>
+
+              <dl class="project-meta" aria-label="Detalhes do projeto">
+                <div>
+                  <dt>Ferramenta</dt>
+                  <dd>Power BI</dd>
+                </div>
+                <div>
+                  <dt>Área</dt>
+                  <dd>Segmentação</dd>
+                </div>
+                <div>
+                  <dt>Foco</dt>
+                  <dd>Clusterização</dd>
+                </div>
+                <div>
+                  <dt>Formato</dt>
+                  <dd>Relatório interativo</dd>
+                </div>
+              </dl>
+
+              <ul class="project-tags" aria-label="Temas do projeto">
+                <li>Clusterização</li>
+                <li>Python</li>
+                <li>Segmentos de clientes</li>
+              </ul>
+
+              <div class="project-actions">
+                <a
+                  class="project-link project-link-primary"
+                  href="https://app.powerbi.com/view?r=eyJrIjoiNTA5OTEwMmItMDAxNy00OTQ0LWE3ODQtNzgwNWUxNzUzYjMwIiwidCI6IjNkOWY4ZTkzLWFlMzItNDE3My1hMjkwLTgzZTM5NzNjNWE0MSIsImMiOjh9"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Explorar relatório
+                </a>
+                <a
+                  class="project-link project-link-download"
+                  href="./Power%20BI/analise-avancada-de-dados.pbix"
+                  download
+                >
+                  Transferir PBIX
+                </a>
+              </div>
+            </div>
+
+            <div class="report-shell" aria-label="Pré-visualização interativa do relatório">
+              <div class="report-toolbar">
+                <span class="report-status" aria-hidden="true"></span>
+                <span>Relatório Power BI</span>
+              </div>
+              <div class="project-media">
+                <img
+                  class="report-preview"
+                  src="./assets/power-bi/analise-avancada-de-dados.svg"
+                  alt="Pré-visualização em estilo dashboard do projeto Power BI de análise avançada de dados"
+                />
+                <iframe
+                  class="powerbi-embed"
+                  title="Relatório Power BI Análise Avançada de Dados"
+                  data-report-id="advanced-analysis"
+                  loading="lazy"
+                  allowfullscreen
+                ></iframe>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section
+        id="contact"
+        class="contact-card"
+        data-scroll-section="contact"
+        aria-labelledby="contact-title"
+      >
+        <div class="contact-avatar">
+          <img src="./assets/avatar-carina-dias.svg" alt="Avatar de Carina Dias" />
+        </div>
+
+        <div class="contact-content">
+          <p class="eyebrow">Contacto</p>
+          <h2 id="contact-title">Carina Dias</h2>
+          <p>
+            Disponível para partilhar relatórios, contexto analítico e ficheiros de
+            trabalho de forma simples, limpa e acessível.
+          </p>
+
+          <ul class="contact-list" aria-label="Formas de contacto">
+            <li>
+              <span>GitHub</span>
+              <a href="https://github.com/CarinaDias5">github.com/CarinaDias5</a>
+            </li>
+            <li>
+              <span>Email</span>
+              <strong>Adicionar email</strong>
+            </li>
+            <li>
+              <span>LinkedIn</span>
+              <strong>Adicionar perfil</strong>
+            </li>
+            <li>
+              <span>Localização</span>
+              <strong>Portugal</strong>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <p>Carina Dias - Portefólio Power BI</p>
+      </footer>
+    </main>
+  </body>
+</html>

@@ -793,8 +793,18 @@ a {
   }
 
   .portfolio-stats {
-    grid-template-columns: 1fr;
-    gap: 18px;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .portfolio-stats li {
+    padding-left: 12px;
+  }
+
+  .portfolio-stats span {
+    max-width: none;
+    font-size: 0.78rem;
+    line-height: 1.35;
   }
 
   .case-study {
